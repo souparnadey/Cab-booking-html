@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+  
+  <h1 id="title">Book Your Cab </h1>
+
+  <p id="description">Fill the required details below to complete your Cab booking </p>
+
+  <form id="survey-form">
+
+    <label for="name" id="name-label">Name:</label>
+    <input id="name" type="text" name="name" placeholder="Enter your name" required></input>
+    <br><br>
+    <label for="email" id="email-label">Email:</label>
+    <input id="email" type="email" name="email" placeholder="Enter your email id" required></input>
+    <br><br>
+    <label for="contact" id="contact-label">Contact no:</label>
+    <input id="contact" type="int" name="contact" placeholder="Enter your Contact number" required></input>
+    <br><br>
+    <label for="age" id="number-label">Age</label>
+    <input id="number" type="number" name="number" placeholder="Enter your age" min="18" max="100" required></input>
+    <br><br>
+    <label for="address" id="address-label">Address:</label>
+    <input id="address" type="var-char" name="address" placeholder="Enter your full address" required></input>
+    <br><br>
+    <label for="location" id="location-label">Street/Building/House no:</label>
+    <input id="location" type="var-char" name="location" placeholder="Enter your detailed location" required></input>
+    <br><br><hr>
+    <label for="dropdown" id="model">Number of adult passengers</label>
+    <select id="dropdown">
+      <option value="1">1</option>
+      <option value="2">2</option>
+      <option value="3">3</option>
+      <option value="4">4</option>
+      <option value="5">5</option>
+      <option value="6">6</option>
+      <option value="7">7</option>
+      <option value="8">8</option>
+    </select>
+  <br><br>
+    <label for="dropdown" id="model">Number of children passengers</label>
+    <select id="dropdown">
+      <option value="0">0</option>
+      <option value="1">1</option>
+      <option value="2">2</option>
+      <option value="3">3</option>
+      <option value="4">4</option>
+      <option value="5">5</option>
+      <option value="6">6</option>
+    </select>
+    <br><br><hr>
+
+    <label for="model" id="model"><b>Model:</b></label><br><br>
+
+      <input id="model" type="radio" id="hatchback" name="model" value="hatchback">
+      <label for="model">Hatchback</label>
+      <br>
+      <input id="model" type="radio" id="cuv" name="model" value="cuv">
+      <label for="model">CUV</label>
+      <br>
+      <input id="model" type="radio" id="SUV" name="model" value="SUV">
+      <label for="model">SUV</label>
+      <br>
+      <input id="model" type="radio" id="Sedan" name="model" value="Sedan">
+      <label for="model">Sedan</label>
+      <br>
+      <input id="model" type="radio" id="MUV" name="model" value="MUV">
+      <label for="model">MUV</label>
+
+      <br><br><hr>
+
+    <label for="pass_data"><b>Choose or Skip:</b></label>
+    <br><br>
+
+      <input id="checkbox" type="checkbox" name="pass_data" value="kids">
+      <label for="checkbox">Kids</label>
+      <br>
+      <input id="checkbox" type="checkbox" name="pass_data" value="senior_citizen">
+      <label for="checkbox">Senior citizen</label>
+      <br>
+      <input id="checkbox" type="checkbox" name="pass_data" value="handicapped">
+      <label for="checkbox">Physically Disabled</label>
+      <br>
+      <input id="checkbox" type="checkbox" name="pass_data" value="ill">
+      <label for="checkbox">Other serious illness</label>
+      <br>
+      <input id="checkbox" type="checkbox" name="pass_data" value="luggage">
+      <label for="checkbox">Luggage</label>
+      <br><br><hr>
+
+    <label for="textarea"><b><u>Add instructions if any</u> (no extra charges):</b></label>
+     <br><br>
+    <textarea id="textarea" name="instructions" rows="7" cols="42" ></textarea>
+    <br><br>
+    
+    <input id="submit" type="submit" value="Go to Payment">
+
+</html>
